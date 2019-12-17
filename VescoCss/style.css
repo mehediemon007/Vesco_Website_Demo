@@ -1,0 +1,600 @@
+/*hero image-------------*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    color: #41464b;
+}
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #64707b;
+}
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background: url(../VescoImg/img/bg-home.jpg);
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /* text-alignment:center*/
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+}
+
+/*===========parallax effect==========
+======================================*/
+
+.bg_parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*==========Btn Generic===========
+==================================*/
+
+.btn-generic {
+    border-width: 2px;
+    border-radius: 0px;
+    padding: 12px 26px 12px 26px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+
+
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
+/*==========Animation===========
+==================================*/
+
+#home-cover,
+home-heading,
+home-btn {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+    /*animation-duration: .5s;*/
+}
+
+#home-heading {
+    animation-delay: .5s;
+    /* animation-duration: .5s;*/
+}
+
+#home-btn {
+    animation-delay: 1s;
+    /*animation-duration: .5s;*/
+}
+
+
+/*==========Content generic===========
+==================================*/
+
+.content-box {
+    padding: 60px 0 60px 0;
+}
+
+.content-title-white h3 {
+    color: #fff;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+
+.underline-below-title {
+    width: 30px;
+    background-color: #34c6d3;
+    height: 3px;
+    margin: 0 auto 30px auto;
+}
+
+/*==========Content generic===========
+==================================*/
+.service-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon {
+    padding: 15px;
+    color: #34c6d3;
+    float: left;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    /* border: 2px solid #34c6d3;*/
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background-color: #34c6d3;
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.service-item-desc p {
+    margin: 0;
+    padding-left: 85px;
+}
+
+
+/*==========About===========
+==================================*/
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 600px;
+    float: right;
+    background-image: url(../VescoImg/img/bg-about.jpg);
+    border-top: 600px solid transparent;
+    border-left: 200px solid #fff;
+}
+
+#about-content-box {
+    float: left;
+    height: 600px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title .underline-below-title {
+    margin: 0 0 20px 0;
+}
+
+#about-desc p {
+    margin-bottom: 30px;
+}
+
+/*===========Work===============
+===============================*/
+
+.row.no-gutters[class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wraper {
+    overflow: hidden;
+}
+
+.img-wraper img {
+    transition: .5s all ease;
+}
+
+.img-wraper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/*======team=====*/
+
+.team-member {
+    padding: 0 15px;
+}
+
+.team-member-info {
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation {
+    color: #34c6d3;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 5px;
+    letter-spacing: 1px;
+}
+
+/*=====Social Icon======*/
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+.social-icon i {
+    font-size: 17px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.icon-gray i:hover {
+    color: #34c6d3;
+}
+
+/*====Tesitimonials===*/
+#testimonial-cover {
+    background-image: url(../VescoImg/img/bg-testimonials.jpg);
+}
+
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#customers-testimonials {
+    padding: 50px 0;
+}
+
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    color: #fff;
+    padding: 6px 150px;
+    font-family: sans-serif;
+    font-style: italic;
+    position: relative;
+}
+
+.testimonial blockquote p {
+    color: #fff;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    width: 30px;
+    height: 30px;
+    line-height: 1;
+    font-style: normal;
+    position: absolute;
+}
+
+.testimonial blockquote::before {
+    content: "\201C";
+    top: 0;
+    left: 100px;
+}
+
+.testimonial blockquote::after {
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+
+.testimonial-author p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.testimonial-author p strong {
+    display: block;
+}
+
+/*========Priceing=========*/
+
+.price-box-content {
+    border: 3px solid #34c6d3;
+    padding: 50px 0;
+    margin: 40px 0;
+}
+
+h4.price-title {
+    background-color: #34c6d3;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+h3.price-value {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h3.price-value sup {
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+ul.price-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 40px 0;
+}
+
+ul.price-spec p {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.price-box-lg {
+    padding: 90px 0;
+    margin: 0;
+    background-color: #34c6d3;
+}
+
+.price-box-lg h4.price-title {
+    background-color: #fff;
+    color: #34c6d3;
+}
+
+.price-box-lg ul.price-spec li p {
+    color: #fff;
+}
+
+/*==========Stats=======*/
+
+#stats-cover {
+    background-image: url(../VescoImg/img/bg-stats.jpg);
+}
+
+#stats .content-box {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.stats-item {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.stats-item i {
+    color: #34c6d3;
+}
+
+.stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.stats-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+/*=======Clients====*/
+.client {
+    padding: 60px 0;
+}
+
+/*====FOOTER=====*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url(../VescoImg/img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+
+}
+
+/*=====Footer Bottom====*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+#footer-menu a :hover {
+    color: #34c6d3;
+}
+
+
+/*======Navigation===*/
+
+.navbar {
+    padding: 8px 0;
+    transition: all .5s ease-in-out;
+}
+
+.vesco-top {
+    background: transparent;
+    /*opacity: .3px;*/
+    padding: 7px 0;
+}
+
+.brand-logo {
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 1px;
+}
+
+.nav-link:hover,
+nav-link:focus {
+    background: none;
+    color: #34c6d3;
+}
+
+.nav-item:last-child {
+    margin-right: 30px;
+}
+
+.vesco-top ul.navbar-nav > li.active > a {
+    background: #34c6d3;
+}
